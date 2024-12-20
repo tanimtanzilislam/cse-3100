@@ -3,6 +3,7 @@ import BaseLayout from './views/BaseLayout';
 import Home from './views/Home';
 import AvailableCats from './views/AvailableCats';
 
+
 function App() {
   return (
     <Routes>
@@ -15,6 +16,7 @@ function App() {
       >
         <Route path={'/'} element={<Home />} />
         <Route path={'/available-cats'} element={<AvailableCats />} />
+        
       </Route>
     </Routes>
   );
